@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./pictures/logo for tab.png">
+    <title>Worlds biggest university</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;0,900;1,300;1,700&display=swap" rel="stylesheet">
+
+    <!-- font awesome 4 cdn for coded logos -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html">
+                <img src="./pictures/logo.png" alt=""></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="./INDEX.html">HOME</a></li>
+                    <li><a href="./ABOUT.html">ABOUT</a></li>
+                    <li><a href="./COURSE.html">COURSE</a></li>
+                    <li><a href="./BLOG.html">BLOG</a></li>
+                    <li><a href="https://images.pexels.com/photos/3094219/pexels-photo-3094219.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" target="blank" download="true">DOWNLOAD</a></li>
+                    <li><a href="">CONTACT</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <h1>COURSES</h1>
+    </section>
+
+    <!-- COURSES content  -->
+
+    <section class="course">
+        <h1>courses we offer</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere, quo!</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore unde facilis ipsam ullam incidunt impedit illo quae ut deserunt itaque!</p>
+            </div>
+
+            <div class="course-col">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore unde facilis ipsam ullam incidunt impedit illo quae ut deserunt itaque!</p>
+            </div>
+
+            <div class="course-col">
+                <h3>post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore unde facilis ipsam ullam incidunt impedit illo quae ut deserunt itaque!</p>
+            </div>
+        </div>
+
+    </section>
+    <!-- academic brushure -->
+
+    <div class="downloadables-wrapper">
+        <a href="https://drive.google.com/file/d/1kmPhM8aq2e2zRaCJnqCAwEfQQ3f6bGNy/view?usp=share_link" target="_blank" class="read-more" id="read-more2" download>Downlode Admission Details</a>
+    </div>
+    <br>
+
+    <!-- facilities -->
+
+    <section class="facilities">
+        <h1>Our Facilities</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, dolor?</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="./pictures/library.png" alt="our world class library">
+                <h3>world class library</h3>
+                <p id="facility1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, tempora?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="./pictures/basketball.png" alt="our world class playgrounds">
+                <h3>Large Playgrounds</h3>
+                <p id="facility2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, tempora?</p>
+            </div>
+
+            <div class="facilities-col">
+                <img src="./pictures/cafeteria.png" alt="largest sport fields">
+                <h3>healthy and Teasty foods</h3>
+                <p id="facility3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, tempora?</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- academic brushure -->
+
+    <div>
+        <a class="download" id="download" href="https://drive.google.com/file/d/1kmPhM8aq2e2zRaCJnqCAwEfQQ3f6bGNy/view?usp=share_link" target="_blank">Download academic Brochure</a>
+    </div>
+    <br>
+
+    <!-- footer -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum vitae eum soluta incidunt sunt<br> qui, porro necessitatibus rem sint sit alias beatae? Dolor, hic vero?</p>
+
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by sandip </p>
+    </section>
+
+    <!-- javascript for toggle menu -->
+
+    <script>
+        var navlinks = document.getElementById("navlinks");
+
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
